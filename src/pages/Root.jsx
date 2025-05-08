@@ -1,9 +1,13 @@
 import { Fragment } from 'react';
+import Navbar from '../components/Navbar';
+import Headroom from 'react-headroom';
 
 const Root = () => {
     return (
         <Fragment>
-            <h1 className="text-5xl font-bold text-center mt-8">ROOT</h1>
+            <Headroom>
+                <Navbar />
+            </Headroom>
         </Fragment>
     );
 };

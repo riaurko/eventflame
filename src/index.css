@@ -3,4 +3,17 @@
 
 @theme {
     --font-merriweather: "Merriweather", Georgia, serif;
+    --color-primary: #f5820d;
+    --color-background: #121212;
+    --color-foreground: #f5f5f5;
+}
+
+nav div:nth-child(2) .active {
+    background: linear-gradient(
+        to bottom right,
+        var(--color-amber-400),
+        var(--color-primary)
+    );
+    background-clip: text;
+    color: transparent;
 }
